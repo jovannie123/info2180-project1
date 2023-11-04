@@ -1,7 +1,9 @@
 /* Add your CSS to this file */
 body {
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
+    font-family: -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 }
 
 .container {
@@ -9,3 +11,215 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+header{
+    background-color: white;
+    font-size: 18px;
+    margin: 20px 0 20px 0;
+    font-weight: 400;
+}
+
+header h1{
+    margin: 0;
+    font-size: 18px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header li{
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+header a{
+    color: #6b7280;
+    text-decoration: none;
+
+}
+
+header a:hover{
+    color: #5A67D8;
+}
+
+.overview-hero{
+    background-color: #e2e8f0;
+    padding: 30px;
+}
+
+.overview-hero .container{
+    display: flex;
+    align-items: center;
+}
+
+.overview-hero-image{
+    margin: 20px;
+    margin-left: 40px;
+}
+
+.overview-hero-text{
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.learn-about{
+    margin: 5px 0 40px 0;
+}
+
+.learn-about .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.learn-about h2{
+    font-size: 24px;
+    color: #48bb78;
+}
+
+.learn-about .card{
+    border: 1px solid #e2e8f0;
+    padding: 5px;
+    box-shadow: 20 20 green;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.learn-about .card img{
+    max-width: 100%;
+    max-height: 50%;
+    align-items: center;
+}
+.learn-about .card-body{
+    padding: 20px;
+}
+
+.learn-about h3{
+    color: #48bb78;
+    font-size: 21px;
+}
+
+.testing{
+    background-color: #4a5568;
+    color: white;
+    padding: 90px 50px 90px 50px;
+}
+
+.testing .container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-gap: 20px;
+}
+
+.testing .cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testing .btn{
+    background-color: #48bb78;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 35px 10px 35px;
+    border: 0.5px solid #48BB78;
+    border-radius: 3px;
+    white-space: nowrap;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.stories{
+    margin: 50px 0 50px 0;
+}
+
+.stories article{
+    display: flex;
+}
+
+.stories h2{
+    color: #5A67D8;
+    margin: 20px;
+    margin-left: 0;
+}
+.stories h3{
+    font-size: 18px;
+}
+
+.stories a{
+    color: #5A67D8;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+.stories img{
+    max-width: 150px;
+    max-height: 180px;
+    border-radius: 50%;
+    margin: 30px;
+}
+
+.newsletter{
+    text-align: center;
+    background-color: #48BB78;
+    color: white;
+    padding: 70px;
+}
+
+.newsletter .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+}
+
+.newsletter h3{
+    margin: 0;
+}
+
+.newsletter p{
+    margin: 20px 0 20px 0;
+}
+
+.newsletter form{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 30px;
+    width: 100%;
+}
+
+.newsletter button{
+    background-color: #5A67D8;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    border: 0.5px solid #5A67D8;
+    font-weight: 500;
+}
+
+.newsletter input{
+    height: 25px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e2e8f0;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: #4a5568;
+    color: white;
+    padding: 10px 0 10px 0;
+}
+
